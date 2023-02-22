@@ -26,7 +26,7 @@ df = df.drop(columns=['local'])
 ![dataframe](https://github.com/carolgois/academia-accenture-powerBi/blob/main/dataframe2.png)
 
 ### 2.3. Criar as colunas 'idade' e 'faixa etaria' no Power Query
-![dataframe](png)
+![dataframe](https://github.com/carolgois/academia-accenture-powerBi/blob/main/dataframe3.png)
 
 ## Visualização dos dados
 ### 3.1 Criar dashboard no Power BI contendo:
@@ -35,4 +35,4 @@ df = df.drop(columns=['local'])
 - Proporção de clientes do sexo masculino e sexo feminino
 
 ## Imagem do dashboard no Power BI
-![dataframe](png)
+![dataframe](https://github.com/carolgois/academia-accenture-powerBi/blob/main/dashboard.png)
