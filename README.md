@@ -4,10 +4,10 @@ Projeto desenvolvido na Academia Mulheres em Tech Data Engineer - Azure
 ## Importar a biblioteca pandas e criar o dataframe a partir do arquivo cadastro_clientes.csv
 ~~~python
 import pandas as pd
-df = pd.read_csv(r"C:\Users\carol\OneDrive\Área de trabalho\Gama\Desafio\academia-accenture-powerBi\cadastro_clientes.csv")
+df = pd.read_csv(r"C:\Users\carol\cadastro_clientes.csv")
 ~~~
 ## Imagem do dataframe no PowerQuery
-![dataframe][dataframe1.png]
+![dataframe](https://github.com/carolgois/academia-accenture-powerBi/blob/main/dataframe1.png)
 
 ## Transformação dos dados
 ### Converter os valores da coluna 'id' para números
@@ -20,4 +20,4 @@ df[['estado','cidade']] = df['local'].apply(lambda x: pd.Series(str(x).split(" -
 df = df.drop(columns=['local']) 
 ~~~
 ## Imagem do dataframe no PowerQuery
-![dataframe][dataframe2.png]
+![dataframe](https://github.com/carolgois/academia-accenture-powerBi/blob/main/dataframe2.png)
